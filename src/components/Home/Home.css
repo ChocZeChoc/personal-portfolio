@@ -16,13 +16,23 @@
     border-radius: 3em;
 }
 
-.profileimg{
-    height: 500px;
-    border-radius: 5em;
-}
-
 .homeIntro{
-    text-align: center;
+    text-align: Left;
     padding: 40px;
     color: #fff;
+    line-height: 100px;
+    height: 500px;
+    max-width: fit-content;
+}
+
+.homeHello {
+    font-size: 50px;
+}
+
+.homePosition {
+    font-size: 72px;
+}
+
+.homeText {
+    line-height: normal;
 }
