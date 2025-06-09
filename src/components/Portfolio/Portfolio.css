@@ -1,0 +1,21 @@
+.grid-container{
+    padding: 50px;
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: repeat(auto-fit , minmax(500px, 1fr));
+    gap: 50px;
+    justify-content: center;
+}
+
+.block {
+    padding: 1em;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    background-color: #353535;
+    text-align: left;
+}
+
+img {
+    padding: 10px;
+}
+
