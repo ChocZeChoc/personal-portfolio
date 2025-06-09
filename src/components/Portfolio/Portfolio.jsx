@@ -19,9 +19,9 @@ const Home = () => {
         </div>
         <div className="grid-container">
             <div className="block">
-                <img src={BeetleBreeder} width={'500px'}/>
+                <img src={BeetleBreeder} width={'460px'}/>
                 <h2>Beetle Breeder</h2>
-                <p>Step into a simulated world where evolution unfolds before your eyes! In this intuitive simulation built with Unity and powered by NavMesh, you’ll watch as simple AI creatures compete, adapt, and evolve over generations. Each creature has a set of traits—like speed and vision—that affect how well they find food and avoid obstacles. The better they perform, the more likely they are to pass their genes to the next generation. With a built-in genetic algorithm, the game evolves in real-time, introducing small mutations that can lead to big changes. Will your creatures adapt and thrive—or fade into extinction? This simulation is a beginner-friendly way to explore the basics of natural selection, genetics, and emergent behavior, all within a dynamic, living environment.</p>
+                <p>Experience evolution in action with this Unity-powered simulation! Watch AI creatures compete, adapt, and evolve through natural selection. Traits like speed and vision affect survival, while genetic algorithms introduce mutations. Beginner-friendly and dynamic, it’s a fun, interactive way to explore evolution, genetics, and emergent behavior in a living digital world.</p>
                 <button onClick={() => handleClick(project_BB_Github)}>
                     Go to Repository
                 </button>
@@ -30,37 +30,37 @@ const Home = () => {
                 </button>
             </div>
             <div className="block">
-                <img src={pototo} width={'500px'}/>
+                <img src={pototo} width={'460px'}/>
                 <h2>Project 2</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
             </div>
             <div className="block">
-                <img src={pototo} width={'500px'}/>
+                <img src={pototo} width={'460px'}/>
                 <h2>Project 3</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
             </div>
             <div className="block">
-                <img src={pototo} width={'500px'}/>
+                <img src={pototo} width={'460px'}/>
                 <h2>Project 4</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
             </div>
             <div className="block">
-                <img src={pototo} width={'500px'}/>
+                <img src={pototo} width={'460px'}/>
                 <h2>Project 5</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
             </div>
             <div className="block">
-                <img src={pototo} width={'500px'}/>
+                <img src={pototo} width={'460px'}/>
                 <h2>Project 6</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
             </div>
             <div className="block">
-                <img src={pototo} width={'500px'}/>
+                <img src={pototo} width={'460px'}/>
                 <h2>Project 7</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
             </div>
             <div className="block">
-                <img src={pototo} width={'500px'}/>
+                <img src={pototo} width={'460px'}/>
                 <h2>Project 8</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
             </div>

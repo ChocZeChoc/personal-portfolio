@@ -15,7 +15,8 @@
 }
 
 img {
-    padding: 10px;
+    display: block;
+    margin: auto;
 }
 
 button {
