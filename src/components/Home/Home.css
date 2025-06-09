@@ -1,0 +1,28 @@
+.homePage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    border-radius: 3em;
+}
+
+.profileimg{
+    height: 500px;
+    border-radius: 5em;
+}
+
+.homeIntro{
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
