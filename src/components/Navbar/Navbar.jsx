@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '/src/assets/img/Choc.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -11,9 +12,9 @@ const Navbar = () => {
         </a>
 
         <nav className="navbar">
-            <a href="/">Home</a>
-            <a href="/Portfolio">Portfolio</a>
-            <a href="/About">About</a>
+            <Link to="/">Home</Link>
+            <Link to="/Portfolio">Porfolio</Link>
+            <Link to="/About">About</Link>
 
         </nav>
     </div>
