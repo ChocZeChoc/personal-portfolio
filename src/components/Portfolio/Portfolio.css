@@ -22,13 +22,17 @@ img {
     border-radius: 50px;
 }
 
-h1,h2,h3,h4,h5,h6{
+.projectHeader{
     padding: 20px;
+    color: #952bff;
 }
 
 button {
     padding: 10px;
     margin: 10px;
+    background-color: #6600cc;
+    color: white;
+    border: none;
 }
 
 .linkbutton{
