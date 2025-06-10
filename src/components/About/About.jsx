@@ -29,47 +29,47 @@ const Home = () => {
 const skillsData = [
   {
     id: 1,
-    imgsrc: '/public/percent/99.png' ,
+    imgsrc: '/percent/99.png' ,
     name: "Skill1",
   },
   {
     id: 2,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill2",
   },
   {
     id: 3,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill3",
   },
   {
     id: 4,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill4",
   },
   {
     id: 5,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill5",
   },
   {
     id: 6,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill6",
   },
   {
     id: 7,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill7",
   },
   {
     id: 8,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill8",
   },
   {
     id: 9,
-    imgsrc: '/public/percent/99.png',
+    imgsrc: '/percent/99.png',
     name: "Skill9",
   }
 ]

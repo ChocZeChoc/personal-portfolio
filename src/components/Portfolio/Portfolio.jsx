@@ -36,10 +36,10 @@ const Home = () => {
                 <h2 className="projectHeader">Project 2</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
-                <button onClick={() => handleClick(project_BB_Github)}>
+                <button onClick={() => handleClick()}>
                     Go to Repository
                 </button>
-                <button onClick={() => handleClick(project_BB_itch)}>
+                <button onClick={() => handleClick()}>
                     Go to itch.io
                 </button>
                 </div>
@@ -49,10 +49,10 @@ const Home = () => {
                 <h2 className="projectHeader">Project 3</h2>
                 <p>Lere.</p>
                 <div className='linkbutton'>
-                <button onClick={() => handleClick(project_BB_Github)}>
+                <button onClick={() => handleClick()}>
                     Go to Repository
                 </button>
-                <button onClick={() => handleClick(project_BB_itch)}>
+                <button onClick={() => handleClick()}>
                     Go to itch.io
                 </button>
                 </div>
@@ -62,10 +62,10 @@ const Home = () => {
                 <h2 className="projectHeader">Project 4</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
-                <button onClick={() => handleClick(project_BB_Github)}>
+                <button onClick={() => handleClick()}>
                     Go to Repository
                 </button>
-                <button onClick={() => handleClick(project_BB_itch)}>
+                <button onClick={() => handleClick()}>
                     Go to itch.io
                 </button>
                 </div>
@@ -75,10 +75,10 @@ const Home = () => {
                 <h2 className="projectHeader">Project 5</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
-                <button onClick={() => handleClick(project_BB_Github)}>
+                <button onClick={() => handleClick()}>
                     Go to Repository
                 </button>
-                <button onClick={() => handleClick(project_BB_itch)}>
+                <button onClick={() => handleClick()}>
                     Go to itch.io
                 </button>
                 </div>
@@ -88,10 +88,10 @@ const Home = () => {
                 <h2 className="projectHeader">Project 6</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
-                <button onClick={() => handleClick(project_BB_Github)}>
+                <button onClick={() => handleClick()}>
                     Go to Repository
                 </button>
-                <button onClick={() => handleClick(project_BB_itch)}>
+                <button onClick={() => handleClick()}>
                     Go to itch.io
                 </button>
                 </div>
@@ -101,10 +101,10 @@ const Home = () => {
                 <h2 className="projectHeader">Project 7</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
-                <button onClick={() => handleClick(project_BB_Github)}>
+                <button onClick={() => handleClick()}>
                     Go to Repository
                 </button>
-                <button onClick={() => handleClick(project_BB_itch)}>
+                <button onClick={() => handleClick()}>
                     Go to itch.io
                 </button>
                 </div>
@@ -114,10 +114,10 @@ const Home = () => {
                 <h2 className="projectHeader">Project 8</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
-                <button onClick={() => handleClick(project_BB_Github)}>
+                <button onClick={() => handleClick()}>
                     Go to Repository
                 </button>
-                <button onClick={() => handleClick(project_BB_itch)}>
+                <button onClick={() => handleClick()}>
                     Go to itch.io
                 </button>
                 </div>
