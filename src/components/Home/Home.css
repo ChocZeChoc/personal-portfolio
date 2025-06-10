@@ -36,3 +36,15 @@
 .homeText {
     line-height: normal;
 }
+
+.IconButton{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 50px);
+    gap: 50px;
+    justify-content: left;
+}
+
+.iconButton:hover{
+    opacity: 50%;
+}
