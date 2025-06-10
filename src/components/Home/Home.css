@@ -37,6 +37,11 @@
     line-height: normal;
 }
 
+.profileimg {
+    width: 500px;
+    bottom: 0px;
+}
+
 .IconButton{
     padding: 50px;
     display: grid;
