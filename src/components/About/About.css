@@ -1,0 +1,78 @@
+.skills{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.carouselContainer{
+    padding: 100px;
+}
+
+.card{
+    max-width: 300px;
+    min-width: 300px;
+    margin: auto 1rem;
+    text-align: center;
+}
+
+.skillimg{
+    width: 200px;
+    object-fit: cover;
+}
+
+.exp{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.exp-col-R{
+    flex-basis: 60%;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #6600cc;
+    transition: .3s;
+}
+
+.tab-links.active-link::after{
+    width: 100%;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.tab-contents ul li span{
+    color: #6600cc;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.activetab{
+    display: block;
+}

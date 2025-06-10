@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-img {
+.block img {
     padding: 20px;
     border-radius: 50px;
 }
