@@ -15,12 +15,15 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    border-color: #ff0000;
 }
 
 img {
     padding: 20px;
     border-radius: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 20px;
 }
 
 button {
@@ -30,5 +33,4 @@ button {
 
 .linkbutton{
     align-self: end;
-    justify-self: end;
 }

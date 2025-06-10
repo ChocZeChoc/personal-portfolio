@@ -1,7 +1,15 @@
 const Home = () => {
+  const slides = [
+    {}
+  ]
   return (
     <div>
-      <h1>About</h1>
+      <div className="Exp">
+        <h1>Experience</h1>
+      </div>
+      <div className="skills">
+        <h1>Skills</h1>
+      </div>
     </div>
   );
 };
