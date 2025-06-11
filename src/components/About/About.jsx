@@ -1,9 +1,19 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './About.css'
 
 import Skills from "../Skills";
+
+const base_url = "https://api.thecatapi.com/v1/images/search";
+
+  const getRandomCat = async () => {
+    const response = await fetch(base_url);
+    
+    const reply = await response.json();
+
+    return reply[0].url;
+  };
 
 const Home = () => {
   const responsive = {
@@ -82,6 +92,13 @@ const [toggleState, setToggleState] = useState(1);
      setToggleState(index);
   }
 
+  const [caturl, setUrl] = useState(null);
+
+  const onClickHandler = async () => {
+      const caturl = await getRandomCat();
+      setUrl(caturl);
+  };
+
   return (
     <div>
       <div className="exp">
@@ -98,7 +115,11 @@ const [toggleState, setToggleState] = useState(1);
           <h3 className={toggleState === 2 ? "tab-links active-link" : "tab-links"} 
           onClick={() =>toggleTab(2)}>
             Education</h3>
+          <h3 className={toggleState === 3 ? "tab-links active-link" : "tab-links"} 
+          onClick={() => {toggleTab(3); onClickHandler();}}>
+            Get Random Cat Image</h3>
         </div>
+        
         <div className={toggleState === 1 ? "tab-contents activetab" : "tab-contents"}>
           <ul>
             <li><span>Being born 2000</span><br/>was busy being born</li>
@@ -112,6 +133,9 @@ const [toggleState, setToggleState] = useState(1);
             <li><span>2018-2021</span><br/>Where the fun time begins</li>
             <li><span>2022-present</span><br/>Medialogy my man</li>
           </ul>
+        </div>
+        <div className={toggleState === 3 ? "tab-contents activetab" : "tab-contents"}>
+          <img src={caturl} width={'250px'}/>
         </div>
         </div>
       </div>
