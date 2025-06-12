@@ -5,6 +5,8 @@ import './About.css'
 
 import Skills from "../Skills";
 
+import logo from '/src/assets/img/choc.png'
+
 const base_url = "https://api.thecatapi.com/v1/images/search";
 
   const getRandomCat = async () => {
@@ -54,47 +56,47 @@ const [toggleState, setToggleState] = useState(1);
   const skillsData = [
   {
     id: 1,
-    imgsrc: 'public/percent/91.png' ,
+    imgsrc: './percent/91.png' ,
     name: "Skill1",
   },
   {
     id: 2,
-    imgsrc: 'public/percent/92.png',
+    imgsrc: './percent/92.png',
     name: "Skill2",
   },
   {
     id: 3,
-    imgsrc: 'public/percent/93.png',
+    imgsrc: './percent/93.png',
     name: "Skill3",
   },
   {
     id: 4,
-    imgsrc: 'public/percent/94.png',
+    imgsrc: './percent/94.png',
     name: "Skill4",
   },
   {
     id: 5,
-    imgsrc: 'public/percent/95.png',
+    imgsrc: './percent/95.png',
     name: "Skill5",
   },
   {
     id: 6,
-    imgsrc: 'public/percent/96.png',
+    imgsrc: './percent/96.png',
     name: "Skill6",
   },
   {
     id: 7,
-    imgsrc: 'public/percent/97.png',
+    imgsrc: './percent/97.png',
     name: "Skill7",
   },
   {
     id: 8,
-    imgsrc: 'public/percent/98.png',
+    imgsrc: './percent/98.png',
     name: "Skill8",
   },
   {
     id: 9,
-    imgsrc: 'public/percent/99.png',
+    imgsrc: './percent/99.png',
     name: "Skill9",
   }
 ]
@@ -105,7 +107,7 @@ const [toggleState, setToggleState] = useState(1);
     <div>
       <div className="exp">
         <div class="exp-col-L">
-          <img src='src/assets/img/Choc.png' />
+          <img src={logo} />
         </div>
         <div class="exp-col-R">
           <h1>About Me</h1>
