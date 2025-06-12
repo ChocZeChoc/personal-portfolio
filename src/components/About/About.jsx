@@ -39,47 +39,47 @@ const Home = () => {
 const skillsData = [
   {
     id: 1,
-    imgsrc: '/percent/99.png' ,
+    imgsrc: 'public/percent/91.png' ,
     name: "Skill1",
   },
   {
     id: 2,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/92.png',
     name: "Skill2",
   },
   {
     id: 3,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/93.png',
     name: "Skill3",
   },
   {
     id: 4,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/94.png',
     name: "Skill4",
   },
   {
     id: 5,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/95.png',
     name: "Skill5",
   },
   {
     id: 6,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/96.png',
     name: "Skill6",
   },
   {
     id: 7,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/97.png',
     name: "Skill7",
   },
   {
     id: 8,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/98.png',
     name: "Skill8",
   },
   {
     id: 9,
-    imgsrc: '/percent/99.png',
+    imgsrc: 'public/percent/99.png',
     name: "Skill9",
   }
 ]
@@ -103,7 +103,7 @@ const [toggleState, setToggleState] = useState(1);
     <div>
       <div className="exp">
         <div class="exp-col-L">
-          <img src='/src/assets/img/Choc.png' />
+          <img src='src/assets/img/Choc.png' />
         </div>
         <div class="exp-col-R">
           <h1>About Me</h1>
