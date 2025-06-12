@@ -36,7 +36,22 @@ const Home = () => {
   }
 };
 
-const skillsData = [
+
+
+const [toggleState, setToggleState] = useState(1);
+
+  const toggleTab = (index) => {
+     setToggleState(index);
+  }
+
+  const [caturl, setUrl] = useState(null);
+
+  const onClickHandler = async () => {
+      const caturl = await getRandomCat();
+      setUrl(caturl);
+  };
+
+  const skillsData = [
   {
     id: 1,
     imgsrc: 'public/percent/91.png' ,
@@ -84,20 +99,7 @@ const skillsData = [
   }
 ]
 
-const skill = skillsData.map((item) => <Skills name={item.name} imgsrc={item.imgsrc}/>);
-
-const [toggleState, setToggleState] = useState(1);
-
-  const toggleTab = (index) => {
-     setToggleState(index);
-  }
-
-  const [caturl, setUrl] = useState(null);
-
-  const onClickHandler = async () => {
-      const caturl = await getRandomCat();
-      setUrl(caturl);
-  };
+  const skill = skillsData.map((item) => <Skills name={item.name} imgsrc={item.imgsrc}/>);
 
   return (
     <div>
