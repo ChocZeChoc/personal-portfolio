@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="header">
         <a href="" className="logo">
-            <img src={logo} alt="Logo" height={40} className='logoimg'/>ChocoPoco | Portfolio
+            <img src={logo} alt="Logo" className='logoimg'/>ChocoPoco | Portfolio
         </a>
 
         <nav className="navbar">

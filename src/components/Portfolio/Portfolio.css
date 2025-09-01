@@ -1,16 +1,16 @@
 .grid-container{
-    padding: 20px;
+    padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(500px, 1fr));
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit , minmax(50rem, 1fr));
+    gap: 5rem;
 }
 
 .block {
-    padding: 2em;
-    border: 1px solid #505050;
-    border-radius: 10px;
+    padding: 2rem;
+    border: 0.1rem solid #505050; /*0.1rem*/
+    border-radius: 1rem;
     background-color: #353535;
-    height: 800px;
+    height: 80rem;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -19,18 +19,20 @@
 }
 
 .block img {
-    padding: 20px;
-    border-radius: 50px;
+    padding: 2rem;
+    border-radius: 5rem;
+    width: 46rem;
+    height: 46rem;
 }
 
 .projectHeader{
-    padding: 20px;
+    padding: 2rem;
     color: #952bff;
 }
 
 button {
-    padding: 10px;
-    margin: 10px;
+    padding: 1rem;
+    margin: 1rem;
     background-color: #6600cc;
     color: white;
     border: none;

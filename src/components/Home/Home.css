@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,19 +18,19 @@
 
 .homeIntro{
     text-align: Left;
-    padding: 40px;
+    padding: 4rem;
     color: #fff;
-    line-height: 100px;
-    height: 500px;
+    line-height: 10rem;
+    height: 50rem;
     max-width: fit-content;
 }
 
 .homeHello {
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .homePosition {
-    font-size: 72px;
+    font-size: 7.2rem;
 }
 
 .homeText {
@@ -38,15 +38,15 @@
 }
 
 .profileimg {
-    width: 500px;
-    bottom: 0px;
+    width: 50rem;
+    bottom: 0rem;
 }
 
 .IconButton{
-    padding: 50px;
+    padding: 5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit , 50px);
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit , 5rem);
+    gap: 5rem;
     justify-content: left;
 }
 
@@ -56,5 +56,6 @@
 }
 
 .IconButton img{
-    padding: 10px;
+    padding: 1rem;
+    width: 10rem;
 }

@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    padding: 10px 3%;
+    padding: 1rem 3%;
     background: #353535;
     display: flex;
     justify-content: space-between;
@@ -10,23 +10,23 @@
 .logo {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 2.2rem;
     color: #fff;
     font-weight: 700;
     text-decoration: none;
 }
 
 .logoimg {
-    height: 40px;
-    margin-right: 100px;
+    height: 4rem;
+    margin-right: 10rem;
 }
 
 .navbar a {
     position: relative;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #fff;
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 
 .navbar a::before {
@@ -35,7 +35,7 @@
     top: 100%;
     left: 0;
     width: 0%;
-    height: 2px;
+    height: 0.2rem;
     background: #fff;
     transition: .3s;
 }

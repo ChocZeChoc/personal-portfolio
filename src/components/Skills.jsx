@@ -5,7 +5,7 @@ function Skills(props) {
     <div>
         <div className="card">
             <img src={props.imgsrc} alt="skills_percent" className="skillimg"/>
-            <h2>{props.name}</h2>
+            <h3>{props.name}</h3>
         </div>
     </div>
   )

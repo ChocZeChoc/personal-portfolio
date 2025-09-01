@@ -111,7 +111,7 @@ const [toggleState, setToggleState] = useState(1);
         </div>
         <div class="exp-col-R">
           <h1>About Me</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sunt possimus natus, quam harum alias nemo quis, porro error dolores aut asperiores repellat, consectetur veniam iste corrupti minus unde quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur voluptatem quam veritatis voluptates suscipit quo deserunt nisi reprehenderit animi nemo. Necessitatibus dolore tenetur, eaque esse debitis minima at maiores possimus.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sunt possimus natus, quam harum alias nemo quis, porro error dolores aut asperiores repellat, consectetur veniam iste corrupti minus unde quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur voluptatem quam veritatis voluptates suscipit quo deserunt nisi reprehenderit animi nemo. Necessitatibus dolore tenetur, eaque esse debitis minima at maiores possimus.</p>
+        <p>Hey there! I’m 25, a Unity (C#) enthusiast, amateur beetle breeder(Yes, Really! I think they're cool), and proud parent to two mischievous cats. When I’m not coding VR experiences or experimenting with digital solutions, you’ll find me cooking up a storm or gaming to recharge. I love bringing curiosity and a playful mindset from my hobbies into my projects — making work as fun and engaging as possible.</p>
         <div class="tab-titles">
           <h3 className={toggleState === 1 ? "tab-links active-link" : "tab-links"} 
           onClick={() =>toggleTab(1)}>
@@ -126,23 +126,23 @@ const [toggleState, setToggleState] = useState(1);
         
         <div className={toggleState === 1 ? "tab-contents activetab" : "tab-contents"}>
           <ul>
-            <li><span>Being born 2000</span><br/>was busy being born</li>
-            <li><span>Did some stuff 2020-2022</span><br/>Did some stuff</li>
-            <li><span>Relax 2022-present</span><br/>Chilling with my cats</li>
+            <li><span>2016</span><br/>1 Week internship at Vision Graphics</li>
+            <li><span>2021-2022</span><br/>Store Manager at Domino's</li>
+            <li><span>2023-Present</span><br/>1.Assistant at Netto</li>
           </ul>
         </div>
         <div className={toggleState === 2 ? "tab-contents activetab" : "tab-contents"}>
           <ul>
-            <li><span>2007-2016</span><br/>Some random school I went to</li>
-            <li><span>2018-2021</span><br/>Where the fun time begins</li>
-            <li><span>2022-present</span><br/>Medialogy my man</li>
+            <li><span>2018-2021</span><br/>HTX køge | EUC sjælland</li>
+            <li><span>2022-2025</span><br/>Medialogy Bachelor | Aalborg University (KBH)</li>
           </ul>
         </div>
         <div className={toggleState === 3 ? "tab-contents activetab" : "tab-contents"}>
-          <img src={caturl} width={'250px'}/>
+          <img src={caturl} width={'25rem'}/>
         </div>
         </div>
       </div>
+
       <div className="skills">
         <h2>Skills</h2>
         <Carousel 

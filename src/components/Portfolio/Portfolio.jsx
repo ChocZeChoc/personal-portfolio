@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="grid-container">
             <div className="block">
-                <img src={BeetleBreeder} width={'460px'} height={'460px'}/>
+                <img src={BeetleBreeder}/>
                 <h2 className="projectHeader">Beetle Breeder</h2>
                 <p>Experience evolution in action with this Unity-powered simulation! Watch AI creatures compete, adapt, and evolve through natural selection. Traits like speed and vision affect survival, while genetic algorithms introduce mutations. Beginner-friendly and dynamic, it’s a fun, interactive way to explore evolution, genetics, and emergent behavior in a living digital world.</p>
                 <div className='linkbutton'>
@@ -32,7 +32,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block">
-                <img src={pototo} width={'460px'} height={'460px'}/>
+                <img src={pototo}/>
                 <h2 className="projectHeader">Project 2</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block">
-                <img src={pototo} width={'460px'} height={'460px'}/>
+                <img src={pototo}/>
                 <h2 className="projectHeader">Project 3</h2>
                 <p>Lere.</p>
                 <div className='linkbutton'>
@@ -58,7 +58,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block">
-                <img src={pototo} width={'460px'} height={'460px'}/>
+                <img src={pototo}/>
                 <h2 className="projectHeader">Project 4</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
@@ -71,7 +71,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block">
-                <img src={pototo} width={'460px'} height={'460px'}/>
+                <img src={pototo}/>
                 <h2 className="projectHeader">Project 5</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
@@ -84,7 +84,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block">
-                <img src={pototo} width={'460px'} height={'460px'}/>
+                <img src={pototo}/>
                 <h2 className="projectHeader">Project 6</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
@@ -97,7 +97,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block">
-                <img src={pototo} width={'460px'} height={'460px'}/>
+                <img src={pototo}/>
                 <h2 className="projectHeader">Project 7</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
@@ -110,7 +110,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="block">
-                <img src={pototo} width={'460px'} height={'460px'}/>
+                <img src={pototo}/>
                 <h2 className="projectHeader">Project 8</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum sunt dicta molestias repellat iusto cupiditate reiciendis ut aperiam rem consequatur, voluptates fugit, sequi corporis? Veniam fuga vel eligendi facere.</p>
                 <div className='linkbutton'>
