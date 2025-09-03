@@ -1,3 +1,4 @@
+
 .header {
     width: 100%;
     padding: 1rem 3%;
@@ -18,7 +19,7 @@
 
 .logoimg {
     height: 4rem;
-    margin-right: 10rem;
+    margin-right: 10%;
 }
 
 .navbar a {
@@ -26,7 +27,7 @@
     font-size: 1.8rem;
     color: #fff;
     font-weight: 500;
-    margin-left: 4rem;
+    margin: 0.5rem 2rem 0.5rem;
 }
 
 .navbar a::before {
@@ -42,4 +43,16 @@
 
 .navbar a:hover::before {
     width: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 630px){
+    .navbar{
+        display:flex;
+        flex-direction: column;
+    }
 }

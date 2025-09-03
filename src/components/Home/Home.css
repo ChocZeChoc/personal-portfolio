@@ -1,61 +1,76 @@
+.IconButton{
+        padding: 5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit , 5rem);
+        gap: 5rem;
+        justify-content: left;
+}
+
+.iconButton:hover{
+        opacity: 50%;
+        cursor: pointer;
+}
+
+.IconButton img{
+        padding: 1rem;
+        max-width: 10rem;
+}
+
 .homePage{
-    position: absolute;
+    position: Absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    width: 80%;
+    max-width: 80%;
     border-radius: 3em;
-}
+    }
 
-.homeIntro{
-    text-align: Left;
-    padding: 4rem;
-    color: #fff;
-    line-height: 10rem;
-    height: 50rem;
-    max-width: fit-content;
-}
-
-.homeHello {
-    font-size: 5rem;
-}
-
-.homePosition {
-    font-size: 7.2rem;
-}
-
-.homeText {
-    line-height: normal;
-}
-
-.profileimg {
-    width: 50rem;
-    bottom: 0rem;
-}
-
-.IconButton{
-    padding: 5rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit , 5rem);
-    gap: 5rem;
-    justify-content: left;
-}
-
-.iconButton:hover{
-    opacity: 50%;
-    cursor: pointer;
-}
-
-.IconButton img{
+@media (min-width: 1500px){
+    .homePage{
+    position: Absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
-    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    max-width: 80%;
+    border-radius: 3em;
+    }
+
+    .homeIntro{
+        text-align: Left;
+        padding: 4rem;
+        color: #fff;
+        margin:auto;
+        min-height: 50rem;
+        max-width: fit-content;
+    }
+
+    .homeText {
+        line-height: normal;
+    }
+
+    .profileimg {
+
+        max-width: 50rem;
+        bottom: 0rem;
+    }
 }

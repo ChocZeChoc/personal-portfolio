@@ -17,13 +17,14 @@
 }
 
 .skillimg{
-    width: 20rem;
+    max-width: 20rem;
     object-fit: cover;
 }
 
 .exp{
     padding: 5rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -77,3 +78,12 @@
     display: block;
 }
 
+.exp-col-L img{
+    max-width: 100%;
+}
+
+@media (max-width: 850px){
+    .exp{
+        flex-direction: column;
+    }
+}

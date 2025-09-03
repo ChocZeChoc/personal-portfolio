@@ -25,15 +25,15 @@ const Home = () => {
     items: 10
   },
   desktop: {
-    breakpoint: { max: 3000, min: 1024 },
+    breakpoint: { max: 3000, min: 1500 },
     items: 6
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1500, min: 600 },
     items: 2
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 600, min: 0 },
     items: 1
   }
 };
@@ -121,7 +121,7 @@ const [toggleState, setToggleState] = useState(1);
             Education</h3>
           <h3 className={toggleState === 3 ? "tab-links active-link" : "tab-links"} 
           onClick={() => {toggleTab(3); onClickHandler();}}>
-            Get Random Cat Image</h3>
+            CatImage</h3>
         </div>
         
         <div className={toggleState === 1 ? "tab-contents activetab" : "tab-contents"}>
