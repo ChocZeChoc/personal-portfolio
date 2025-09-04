@@ -110,8 +110,8 @@ const [toggleState, setToggleState] = useState(1);
           <img src={logo} />
         </div>
         <div class="exp-col-R">
-          <h1>About Me</h1>
-        <p>Hey there! I’m 25, a Unity (C#) enthusiast, amateur beetle breeder(Yes, Really! I think they're cool), and proud parent to two mischievous cats. When I’m not coding VR experiences or experimenting with digital solutions, you’ll find me cooking up a storm or gaming to recharge. I love bringing curiosity and a playful mindset from my hobbies into my projects — making work as fun and engaging as possible.</p>
+          <h2>About Me</h2>
+        <p>I’m a Junior <span class="bolded">Unity</span> Developer with foundation in <span class="bolded">C#</span> programming and game development, experienced in building projects such as <span class="bolded">BeetleBreeder a small AI simulation, Language teaching game, a Simple wave game, 2D mini-games.</span> Alongside Unity, I know basics in <span class="bolded">HTML, CSS, JavaScript, Python,</span> and graphic design main tools I use for this is <span class="bolded">Affinity Designer & Photo</span>, as well as experience with <span class="bolded">CAD</span> software such as Fusion360, Onshape, etc. and electronics/Arduino projects, which give me a versatile technical background. I’m passionate about creating interactive, engaging experiences and enjoy combining creativity with problem-solving to bring ideas to life. My goal is to contribute to a professional team , continue learning, and grow into a well-rounded developer while delivering meaningful projects.</p>
         <div class="tab-titles">
           <h3 className={toggleState === 1 ? "tab-links active-link" : "tab-links"} 
           onClick={() =>toggleTab(1)}>
@@ -138,7 +138,7 @@ const [toggleState, setToggleState] = useState(1);
           </ul>
         </div>
         <div className={toggleState === 3 ? "tab-contents activetab" : "tab-contents"}>
-          <img src={caturl} width={'25rem'}/>
+          <img src={caturl}/>
         </div>
         </div>
       </div>

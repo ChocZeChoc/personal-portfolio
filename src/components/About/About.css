@@ -6,12 +6,12 @@
 }
 
 .carouselContainer{
-    padding: 10rem;
+    padding: 1rem;
 }
 
 .card{
-    max-width: 30rem;
-    min-width: 30rem;
+    max-width: 25rem;
+    min-width: 25rem;
     margin: auto 1rem;
     text-align: center;
 }
@@ -30,6 +30,8 @@
 
 .exp-col-R{
     flex-basis: 60%;
+    max-width: 50%;
+    text-align: left;
 }
 
 .tab-titles{
@@ -41,6 +43,7 @@
     margin-right: 5rem;
     cursor: pointer;
     position: relative;
+    color: #aaaaaa;
 }
 
 .tab-links::after{
@@ -52,6 +55,10 @@
     height: 0.2rem;
     background: #6600cc;
     transition: .3s;
+}
+
+.tab-links.active-link{
+    color: #fff;
 }
 
 .tab-links.active-link::after{
@@ -82,8 +89,37 @@
     max-width: 100%;
 }
 
+.tab-contents img{
+    max-width: 25rem;
+}
+
+.bolded{
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
 @media (max-width: 850px){
     .exp{
         flex-direction: column;
+    }
+
+    .tab-titles {
+        flex-direction: column;
+        max-width: fit-content;
+        line-height: 4rem;
+        margin: 2rem 0;
+    }
+
+    .exp-col-R
+    {
+        text-align: left;
+        max-width: fit-content;
+    }
+
+    .exp-col-L
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

@@ -8,12 +8,12 @@ const Navbar = () => {
   return (
     <div className="header">
         <a href="" className="logo">
-            <img src={logo} alt="Logo" className='logoimg'/>ChocoPoco | Portfolio
+            <Link to="/personal-portfolio/"><img src={logo} alt="Logo" className='logoimg'/></Link>Portfolio
         </a>
 
         <nav className="navbar">
             <Link to="/personal-portfolio/">Home</Link>
-            <Link to="/personal-portfolio/Portfolio">Porfolio</Link>
+            <Link to="/personal-portfolio/Portfolio">Projects</Link>
             <Link to="/personal-portfolio/About">About</Link>
 
         </nav>

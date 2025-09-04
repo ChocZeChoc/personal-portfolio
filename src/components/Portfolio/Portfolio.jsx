@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div>
         <div>
-            <h1>Portfolio</h1>
+            <h2 className='PortTitle'>Projects</h2>
         </div>
         <div className="grid-container">
             <div className="block">
