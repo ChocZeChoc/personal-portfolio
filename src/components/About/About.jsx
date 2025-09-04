@@ -28,8 +28,12 @@ const Home = () => {
     breakpoint: { max: 3000, min: 1500 },
     items: 6
   },
+  Bigtablet: {
+    breakpoint: { max: 1500, min: 1000 },
+    items: 3
+  },
   tablet: {
-    breakpoint: { max: 1500, min: 600 },
+    breakpoint: { max: 1000, min: 600 },
     items: 2
   },
   mobile: {
