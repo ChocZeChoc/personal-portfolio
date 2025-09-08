@@ -60,48 +60,48 @@ const [toggleState, setToggleState] = useState(1);
   const skillsData = [
   {
     id: 1,
-    imgsrc: './percent/91.png' ,
-    name: "Skill1",
+    imgsrc: './percent/85.png' ,
+    name: "Unity C#",
   },
   {
     id: 2,
-    imgsrc: './percent/92.png',
-    name: "Skill2",
+    imgsrc: './percent/73.png',
+    name: "Python",
   },
   {
     id: 3,
-    imgsrc: './percent/93.png',
-    name: "Skill3",
+    imgsrc: './percent/95.png',
+    name: "Html",
   },
   {
     id: 4,
-    imgsrc: './percent/94.png',
-    name: "Skill4",
+    imgsrc: './percent/80.png',
+    name: "CSS",
   },
   {
     id: 5,
-    imgsrc: './percent/95.png',
-    name: "Skill5",
+    imgsrc: './percent/80.png',
+    name: "JS",
   },
   {
     id: 6,
-    imgsrc: './percent/96.png',
-    name: "Skill6",
+    imgsrc: './percent/85.png',
+    name: "Elektronik",
   },
   {
     id: 7,
-    imgsrc: './percent/97.png',
-    name: "Skill7",
+    imgsrc: './percent/80.png',
+    name: "3D CAD",
   },
   {
     id: 8,
-    imgsrc: './percent/98.png',
-    name: "Skill8",
+    imgsrc: './percent/90.png',
+    name: "Affinity/Adobe",
   },
   {
     id: 9,
-    imgsrc: './percent/99.png',
-    name: "Skill9",
+    imgsrc: './percent/80.png',
+    name: "Google Sheets/Excel",
   }
 ]
 
