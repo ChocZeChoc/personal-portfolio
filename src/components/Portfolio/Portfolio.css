@@ -7,9 +7,9 @@
 
 .block {
     padding: 2rem;
-    border: 0.1rem solid #505050; /*0.1rem*/
+    border: 0.1rem solid #50505f; /*0.1rem*/
     border-radius: 1rem;
-    background-color: #353535;
+    background-color: #35353f;
     max-height: 80rem;
     display: flex;
     flex-direction: column;

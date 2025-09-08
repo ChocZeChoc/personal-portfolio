@@ -13,7 +13,7 @@ html{
 }
 
 body{
-  background-color: #202020;
+  background-color: #232329;
 }
 
 a {
@@ -61,4 +61,5 @@ button:hover{
 
 li{
   font-size: 1.6rem;
+  color:#c5c5cf;
 }
